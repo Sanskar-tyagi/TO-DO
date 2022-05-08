@@ -52,13 +52,13 @@ input[type=text]{
   border: 0;
   outline: 0;
   background-color:#EBECF0;
-  text-shadow: 1px 1px 0 #BABECC;
+  text-shadow: 1px 1px 0 #b8c6db;
   width:400px;
   height: 50px;
   transition: width 0.4s ease-in-out;
   border-radius: 25px;
   margin-right: 8px;
-  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px  #FFF;
+  box-shadow:  inset 2px 2px 5px #b8c6db, inset -10px -10px 10px  #FFF;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
   appearance: none;
@@ -69,7 +69,7 @@ input[type=text]{
  
 }
   input:focus {
-    box-shadow:  inset 1px 1px 2px  #BABECC, inset -1px -1px 2px #FFF;
+    box-shadow:  inset 1px 1px 2px #b8c6db, inset -1px -1px 2px #FFF;
   }
 
 input::placeholder{
@@ -140,7 +140,7 @@ font-family: 'Patrick Hand SC', cursive;
 .bt:hover {
     
   box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px,#b8c6db 0 -3px 0 inset;
-  transform: translateY(-2px);
+  transform: translateY(-3px);
 }
 
 .bt:active {
@@ -152,7 +152,7 @@ font-family: 'Patrick Hand SC', cursive;
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   position:absolute;
   text-decoration: none;
- top: 68px;
+   top: 68px;
   right: 10px;
   cursor: pointer;
   padding: 10px;
@@ -226,6 +226,7 @@ font-family: 'Patrick Hand SC', cursive;
       box-shadow: 1px 0 1px var(--gray);
       text-align: center;
       border-top: 1px dashed var(--gray);
+      border-bottom: 1px dashed var(--gray);
     } 
       .card:hover {
         transform: scale(1.2);

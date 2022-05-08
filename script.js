@@ -2,7 +2,7 @@ let inputTag=document.querySelector("input");
 let  ulTag=document.querySelector("ul")
 let delT=document.querySelector('.box')
 let div=document.querySelector(".list")
-let imgTag;         
+    
 inputTag.addEventListener("keydown",function(e){
     let k=e.key;
     if(k=='Enter'){
@@ -22,25 +22,19 @@ inputTag.addEventListener("keydown",function(e){
       </div>
   </div>
 `;
-/* <p class="name"></p> */
-
    liremove(litag);
    ulTag.appendChild(litag);
    
     }
 }
 })
+ 
 function liremove(litag){
     let del=litag.querySelector(".del")
     del.addEventListener("click",function(){
         litag.remove();
     })
 }
-// function liremoveAll(litag){
-//     delT.addEventListener("click",function(){
-//         litag.removeAll();
-//     })
-// }
 delT.addEventListener("click",function(){
       ulTag.remove();
       let u=document.createElement("ul")
