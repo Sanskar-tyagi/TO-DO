@@ -13,9 +13,9 @@ inputTag.addEventListener("keydown",function(e){
    let litag=document.createElement("li");
    litag.innerHTML=` <div class="container">
    <div class="card">
-       <div class="c">
+       <span class="c">
            ${val}
-          </div>
+          </span>
           <div class="del">
               <span class="material-symbols-outlined">delete_forever</span>                                
           </div>
@@ -45,5 +45,6 @@ delT.addEventListener("click",function(){
       ulTag.remove();
       let u=document.createElement("ul")
       div.appendChild(u);
+      ulTag = u;
 })
  
