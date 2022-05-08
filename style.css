@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Zilla+Slab:300,400');
+
 *{
   margin: 0px;
   padding: 0px;
@@ -39,8 +41,11 @@ position: relative;
 top: 22px;
 text-align: center;
 display: flex;  
-font-family: 'Patrick Hand SC', cursive;
-font-size: x-large;
+font-family: 'fredericka the great', cursive;
+  font-weight: 500;
+  text-align: center;
+	font-size: 1.5rem;
+	color: rgba(100, 58, 122, .8);
 }
 .inp{
   padding-top: 40px;
@@ -64,9 +69,11 @@ input[type=text]{
   appearance: none;
   font-size:25px;
   -webkit-appearance: none;
-  font-family: 'Patrick Hand SC', cursive;
-
- 
+  font-family: 'fredericka the great', cursive;
+  font-weight: 500;
+  text-align: center;
+	font-size: 1.5rem;
+  color: rgb(174, 160, 143);	
 }
   input:focus {
     box-shadow:  inset 1px 1px 2px #b8c6db, inset -1px -1px 2px #FFF;
@@ -195,9 +202,6 @@ font-family: 'Patrick Hand SC', cursive;
 }
 
 .card {
-  /* -ms-overflow-style: none;
-  scrollbar-width: none; */
-  /* overflow: auto; */
   word-wrap: break-word;
   display: flex;
   flex-wrap: wrap;

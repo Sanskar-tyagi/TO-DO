@@ -41,4 +41,7 @@ delT.addEventListener("click",function(){
       div.appendChild(u);
       ulTag = u;
 })
- 
+let ctag=document.querySelector(".card");
+ ctag.addEventListener("dbclick",function(){
+     
+ })
