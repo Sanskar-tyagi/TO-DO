@@ -31,14 +31,12 @@ height: 119px;
   width: 100%;
   font-family: 'VALORANT';
 }
-h1{
-      position: absolute;
-      top: 245px;
-      left: 590px;
-}
+
 .c{
 position: relative;
-top: 22px;
+top: 30px; 
+overflow-wrap: break-word;
+justify-content: center;
 text-align: center;
 display: flex;  
 font-family: 'fredericka the great', cursive;
@@ -50,7 +48,7 @@ font-family: 'fredericka the great', cursive;
 .inp{
   padding-top: 40px;
   position: relative;
-  top: 139px;
+  top: 70px;
   left: -18px;
 }
 input[type=text]{
@@ -87,17 +85,16 @@ input::placeholder{
 li{
 
   list-style: none;
-  left: -24px;
   position: relative;
-  top: 136px;
   padding-top: 20px;
   transition: color .3s ease;
 }
 
 .box{
-  left: -80px;
+  display: none;
+  left: -75px;
   position: relative;
-  top: 136px;
+  top: 161px;
   padding-top: 20px;  
 }
 p{
@@ -155,11 +152,11 @@ font-family: 'Patrick Hand SC', cursive;
   transform: translateY(2px);
 }
 
-.material-symbols-outlined {
+.mm {
   background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
   position:absolute;
   text-decoration: none;
-   top: 68px;
+   top: 84px;
   right: 10px;
   cursor: pointer;
   padding: 10px;
@@ -175,12 +172,12 @@ font-family: 'Patrick Hand SC', cursive;
   box-shadow:#f5f7fa 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #f5f7fa 0 -3px 0 inset;
 }
 
-.material-symbols-outlined:active {
+.mm:active {
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
 }
 
-.material-symbols-outlined:hover {
+.mm:hover {
     border-radius:50% ;
     box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
   transform: translateY(-2px);
@@ -220,7 +217,7 @@ font-family: 'Patrick Hand SC', cursive;
       padding: 10px;
     
      min-width: 24rem;
-      min-height: 120px;
+      min-height: 140px;
       background: linear-gradient(
         135deg,
         var(--paper-color),
@@ -258,4 +255,96 @@ width: 10px;
 height: 10px;
 border-radius: 50%;
 background: var(--gray);
+}
+ul{
+  border-radius: 25px;
+  left: -15px;
+  position: relative;
+  top:175px;
+  background-color: #3c4fe0;
+}
+.h1{
+  position: relative;
+  left:7rem;
+  text-shadow: 1px 1px 0 #b8c6db;
+  transition: all 0.2s ease-in-out;
+  font-family: 'fredericka the great', cursive;
+  font-weight: 500;
+  text-align: center;
+	font-size: 1.5rem;
+  color:white;	
+}
+.heading{
+  width:400px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  top: 12rem;
+}
+.comp
+{
+  background: linear-gradient(
+    to right,
+    rgba(100, 200, 200, 1),
+    rgba(100, 200, 200, 1)
+  );
+position: relative;
+left: -12rem;
+top: 3rem;
+width: 19rem;
+}
+.ong{
+  background: linear-gradient(
+    to right,
+    rgba(100, 200, 200, 1),
+    rgba(100, 200, 200, 1)
+  );
+position: relative;
+width: 14rem;
+left:1rem;
+top:3rem;
+}
+.a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.a:hover {
+  background-size: 0 3px, 100% 3px;
+}
+.ong:hover{
+  cursor: pointer;
+  background-size: 0 3px, 100% 3px;
+}
+.comp:hover{
+  cursor: pointer;
+  background-size: 0 3px, 100% 3px;
+}
+#he:hover{
+cursor: default;
+}
+#v1{
+  top: 0.6rem;
+    left: -10rem;
+    position: relative;
+}
+.chk{
+  position:absolute;
+  top: 10px;
+  left:1px;
+  margin-right: 2rem;
 }
